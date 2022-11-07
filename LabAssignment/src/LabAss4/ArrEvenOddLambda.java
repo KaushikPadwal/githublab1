@@ -6,7 +6,7 @@ public class ArrEvenOddLambda
 
 	public static void main(String[] args) 
 	{
-		List<Integer> number = new ArrayList<Integer>();
+		List<Integer> number = new ArrayList<Integer>(); // Array List
 		
 		number.add(11);
 		number.add(44);
@@ -15,9 +15,9 @@ public class ArrEvenOddLambda
 		number.add(66);
 		number.add(69);
 		
-		number.forEach((n)->
+		number.forEach((n)-> // lambda expression
 		{
-			if(n%2==0) 
+			if(n%2==0)   // if else Statement
 			{
 				System.out.println("Number is Even :"+n);
 			}
