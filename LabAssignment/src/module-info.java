@@ -6,4 +6,5 @@
  *
  */
 module LabAssignment {
+	requires java.naming;
 }
