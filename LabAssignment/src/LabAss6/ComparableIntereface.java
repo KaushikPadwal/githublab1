@@ -76,7 +76,7 @@ public class ComparableIntereface
 		Collections.sort(d);
 		for(Agent a:d)  // for each loop
 		{
-			System.err.println("Agent name :-"+a.getName()+", ID :-"+a.getId()+", Area :-"+a.getArea());
+			System.out.println("Agent name :-"+a.getName()+", ID :-"+a.getId()+", Area :-"+a.getArea());
 		}
 		
 	}
