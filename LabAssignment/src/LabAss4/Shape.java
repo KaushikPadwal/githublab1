@@ -1,11 +1,10 @@
 package LabAss4;
-
 // Hierarchical inheritance
 class Circle extends Shape  //Circle is child class 
 {
 	public void getArea() // method
 	{
-		int r=7;
+		int r=4;
 		double  pi = 3.14;
 		double area =pi*r*r;    // calculate area of circle
 		System.out.println(area);
