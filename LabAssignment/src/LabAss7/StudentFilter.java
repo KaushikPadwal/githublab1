@@ -66,6 +66,7 @@ public class StudentFilter
 
 	public static void main(String[] args)
 	{
+
 		List<Student> stud = new ArrayList<>();
 		stud.add(new Student(1,"Kaushik",22,75));
 		stud.add(new Student(2,"ASHU",22,79));
